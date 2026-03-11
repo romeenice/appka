@@ -76,49 +76,59 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     paddingHorizontal: 24,
-    backgroundColor: '#f7fafc',
+    backgroundColor: '#181A20', // темний фон
   },
   title: {
     fontSize: 28,
     fontWeight: 'bold',
     marginBottom: 24,
     textAlign: 'center',
-    color: '#2d3748',
+    color: '#F3F4F6', // світлий текст
+    letterSpacing: 1,
   },
   errorText: {
-    color: '#e53e3e',
+    color: '#EF4444', // яскраво-червоний
     marginBottom: 12,
     textAlign: 'center',
+    fontWeight: 'bold',
   },
   input: {
-    backgroundColor: '#fff',
+    backgroundColor: '#23242A', // темний input
     borderRadius: 8,
     padding: 12,
     fontSize: 16,
     marginBottom: 12,
     borderWidth: 1,
-    borderColor: '#e2e8f0',
+    borderColor: '#2D3748',
+    color: '#F3F4F6', // світлий текст
   },
   loginBtn: {
-    backgroundColor: '#38a169',
+    backgroundColor: '#2563EB', // синя кнопка
     borderRadius: 8,
     paddingVertical: 12,
     alignItems: 'center',
     marginTop: 8,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 2,
   },
   loginBtnText: {
-    color: '#fff',
+    color: '#F3F4F6',
     fontSize: 16,
     fontWeight: 'bold',
+    letterSpacing: 0.5,
   },
   switchLink: {
     marginTop: 12,
     alignItems: 'center',
   },
   switchText: {
-    color: '#3182ce',
+    color: '#60A5FA', // світло-синій
     fontSize: 14,
     fontWeight: '500',
+    letterSpacing: 0.5,
   },
 });
 
